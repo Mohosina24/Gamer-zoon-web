@@ -33,6 +33,8 @@ header{
    text-decoration: none;
    color:  #3C354F;
 }
+
+
 .imge-icon-text{
    display: flex;
 
@@ -130,6 +132,10 @@ margin-top: 20px;
    .banner{
       flex-direction: column;
    }
+   .banner-title{
+      font-size: 32px;
+      
+   }
    .primary-btn{
       padding: 20px;
    }
@@ -151,5 +157,10 @@ margin-top: 20px;
    .navber{
       flex-direction: column;
    }
-   
+   .navber li{
+      margin-top: 10px;
+   }
+   .colo{
+      padding: 5px;
+   }
 }

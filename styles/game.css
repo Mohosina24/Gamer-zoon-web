@@ -11,6 +11,7 @@ header{
    background-color: rgb(253, 252, 253);
 }
 
+
 .navber{
    display: flex;
    justify-content: space-between;
@@ -35,6 +36,14 @@ header{
 .imge-icon-text{
    display: flex;
 
+}
+.img-icon{
+   width: 90px;
+}
+.colo{
+   background-color: rgba(11, 2, 35, 0.10);
+   display: flex;
+   padding:5px;
 }
 .imge-icon-text h2{
    font-size: 2.8rem;
@@ -98,4 +107,49 @@ margin-top: 20px;
 }
 .banner-image{
    width: 50%;
+}
+/* mobile responsive */
+@media screen and (max-width:576px) {
+   header{
+      padding: 20px;
+   }
+  
+   .navber, .navber > ul{
+      flex-direction: column;
+      align-items: center;
+     
+   }
+   .navber li{
+      margin-top: 10px;
+   }
+   .colo{
+      margin-top: 20px;
+  
+     
+   }
+   .banner{
+      flex-direction: column;
+   }
+   .primary-btn{
+      padding: 20px;
+   }
+   .primary-btn2{
+      padding: 20px;
+   }
+   .banner-contant{
+      margin-left: 10px;
+   }
+   .banner-image{
+      width: 100%;
+   }
+}
+/* tablet or medium devices */
+@media screen and (min-width:576px) and (max-width:992px) {
+   header{
+      padding: 10px;
+   }
+   .navber{
+      flex-direction: column;
+   }
+   
 }

@@ -305,7 +305,7 @@ filter: brightness(100%);
 }
      
  .icon-1:hover  {
-    width: 200px;
+    width: 160px;
     border: 2px solid palevioletred ;
    border-radius: 80px;
   color: #FF42A5;
@@ -314,7 +314,7 @@ filter: brightness(100%);
 }
 
 .icon-2:hover  {
-   width: 200px;
+   width: 160px;
    border: 2px solid palevioletred ;
   border-radius: 80px;
  color: #FF42A5;
